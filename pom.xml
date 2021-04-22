@@ -296,6 +296,7 @@
                         <artifactId>maven-site-plugin</artifactId>
                         <version>3.3</version>
                         <configuration>
+				  </plugin>
                             <reportPlugins>
                                 <plugin>
                                     <artifactId>maven-project-info-reports-plugin</artifactId>
