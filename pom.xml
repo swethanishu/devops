@@ -14,7 +14,13 @@
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
-
+<dependency>
+   <groupId>com.sun</groupId>
+   <artifactId>tools</artifactId>
+   <version>1.6.0</version>
+   <scope>system</scope>
+   <systemPath>${env.JAVA_HOME}/lib/tools.jar</systemPath>
+ </dependency>
     <repositories>
         <repository>
             <id>vaadin-prereleases</id>
